@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MT6MLL');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is an interface for searching and browsing the UMLS Metathesaurus data. Our goal here is to present the UMLS Metathesaurus data in a useful way.">
+    <title>UMLS Metathesaurus Browser</title>
+    <base href="/uts/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
+    <script>
+        function msieversion() {
+            var msie = window.navigator.userAgent.indexOf("MSIE ");
+            return (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./));
+        }
+
+        if (msieversion()) {
+            window.location = '/uts/noSupport.html';
+        }
+    </script>
+
+    <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+    <script type="text/javascript">
+        if (window.location.hostname !== 'localhost') {
+            (function(){var g=function(e,h,f,g){
+                this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+                this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+                this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+                this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+                this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+                try{(new g(100,"r","QSI_S_ZN_cMFdqcmZsyfyJ94","https://zncmfdqcmzsyfyj94-nlmenterprise.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_cMFdqcmZsyfyJ94")).start()}catch(i){}})();
+        }
+    </script>
+    <div id="ZN_cMFdqcmZsyfyJ94"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+    <!--END WEBSITE FEEDBACK SNIPPET-->
+<link rel="stylesheet" href="styles.96422bbd614490b9.css"></head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe height="0" sandbox
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MT6MLL" style="display:none;visibility:hidden" title="googletagmanager" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<app-root></app-root>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="runtime.cc0d048199e1f12b.js" type="module"></script><script src="polyfills.f97ffede58ab2c4d.js" type="module"></script><script src="scripts.4561b26a7cb3c7d8.js" defer=""></script><script src="main.1ac497904ad5d8ad.js" type="module"></script></body>
+</html>
+
+
+<!-- pre-zone polyfills
+
+
+<script src="node_modules/zone.js/dist/zone.js"></script>-->
