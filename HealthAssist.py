@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 
 # Set up Google Gemini-Pro AI model
-GOOGLE_API_KEY = "AIzaSyBgNe7hMdllxXWn3TBumP7QBzuqngqX_TY"
+GOOGLE_API_KEY = "YOUR_API_KEY"   #Insert your API-KEY
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Set up the chat models
